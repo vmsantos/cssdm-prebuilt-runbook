@@ -1,0 +1,11 @@
+CSSDM prebuilt release manifest
+
+Artifact: cssdm-wsl-release.zip
+SHA256: BE243B996FCED919D4A9FA90D8ADB80247C602AD8978D7C6CE88527C3A521422
+
+Built from the working WSL server tree and includes:
+- cstrike/addons
+- cstrike/cfg/cssdm
+- docs/WSL-RUNBOOK.md
+
+This manifest records the release state that was validated locally and then applied to the remote LinuxGSM server.
