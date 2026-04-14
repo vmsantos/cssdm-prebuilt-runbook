@@ -29,3 +29,12 @@ The key fix was using a clean prebuilt layout with the documented VDF paths:
 - `cstrike/addons/metamod/sourcemod.vdf`
 
 That removed the path/layout mismatch that had been causing the loader problems.
+
+## Later fixes
+
+After the first prebuilt deployment, two small CSSDM source patches were needed:
+
+- avoid the weapon-select crash path in `dm_equipment.sp`
+- equip the first-spawn weapon cleanly so the viewmodel appears
+
+Those patches were added to the source repo and the rebuilt plugins should be treated as the current known-good state.
