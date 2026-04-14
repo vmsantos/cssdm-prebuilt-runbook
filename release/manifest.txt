@@ -8,4 +8,8 @@ Built from the working WSL server tree and includes:
 - cstrike/cfg/cssdm
 - docs/WSL-RUNBOOK.md
 
+Post-release note:
+- The source repo now contains follow-up patches for the weapon-select crash and first-spawn viewmodel issue.
+- Treat the rebuilt plugins as the current known-good deployment baseline.
+
 This manifest records the release state that was validated locally and then applied to the remote LinuxGSM server.
